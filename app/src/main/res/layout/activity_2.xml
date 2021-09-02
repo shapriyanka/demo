@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activity2"
+    android:orientation="vertical">
+
+   <EditText
+       android:id="@+id/id1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:paddingHorizontal="130dp"
+       android:paddingVertical="10dp"
+       android:layout_marginTop="150dp"
+       android:background="#EAE7E7"
+       android:hint="Full Name"
+       android:textStyle="bold"
+       />
+
+   <EditText
+       android:id="@+id/id2"
+       android:layout_width="340dp"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:paddingVertical="10dp"
+       android:layout_marginTop="20dp"
+       android:background="#EAE7E7"
+       android:hint="Email"
+       android:textStyle="bold"
+       />
+   <EditText
+       android:id="@+id/id3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:paddingHorizontal="130dp"
+       android:paddingVertical="10dp"
+       android:layout_marginTop="20dp"
+       android:background="#EAE7E7"
+       android:hint="Password"
+       android:textStyle="bold"
+       />
+   <Button
+       android:id="@+id/button2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:backgroundTint="#3693D1"
+       android:layout_marginTop="30dp"
+       android:text="@string/signup"
+       android:paddingHorizontal="130dp"
+       />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="5dp"
+       android:layout_weight="2"
+       android:orientation="horizontal">
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:layout_marginTop="9dp"
+          android:layout_weight="1"
+          android:background="@color/black" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="OR"
+          android:textSize="15sp"
+          android:textStyle="bold"
+          android:layout_marginTop="3dp"/>
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:layout_marginTop="9dp"
+          android:layout_weight="1"
+          android:background="@color/black" />
+
+   </LinearLayout>
+
+   <Button
+       android:layout_width="320dp"
+       android:layout_height="52dp"
+       android:layout_gravity="center"
+       android:layout_marginTop="10dp"
+       android:backgroundTint="#3693D1"
+       android:scaleType="fitCenter"
+       android:text="@string/sign_up_with_facebook"
+       android:drawableLeft="@drawable/ic_circle_cropped__1_"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_gravity="center"
+       android:backgroundTint="@color/white"
+       android:text="@string/sign_up_with_google"
+       android:paddingHorizontal="70dp"
+       android:textStyle="bold"
+       android:textColor="@color/black"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="40dp"
+       android:layout_gravity="center"
+       android:layout_marginTop="50dp"
+       android:text="By signing up you accept the Terms Of Services
+      \n and Privacy Policy"
+       android:textSize="16sp"
+       tools:ignore="HardcodedText" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:text="Already have an account? Sign Up"
+      android:layout_marginTop="80dp"
+      android:layout_gravity="center"
+       tools:ignore="HardcodedText" />
+
+
+</LinearLayout>
